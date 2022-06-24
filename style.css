@@ -6,8 +6,8 @@ body{
     }
 
 .formbox{
-    width: 380px;
-    height: 480px;
+    width: 400px;
+    height: 500px;
     position: relative;
     margin: 6% auto;
     background: rgba(9, 186, 240, 0.507);
@@ -15,12 +15,12 @@ body{
     border-radius: 50px;
       }       
 .button-box{
-    width: 220px;
+    width: 280px;
+    height: 50px;
     margin: 35px auto;
     position:relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
-    display: inline-flex;
 }
 .toggle-btn{
     
@@ -30,6 +30,8 @@ body{
     background: transparent;
     border: 0;
     position: relative;
+    text-align: center;
+
 }
 #btn{
     top: 0;
@@ -78,15 +80,18 @@ body{
     border-radius: 30px;
 }
 .submit-btn:hover{
-    background: linear-gradient(to left, #06fff3,#e14c28) ;
+    background: linear-gradient(to right, #06fff3,#e14c28) ;
+    border-color: #0c0c0c;
+    text-decoration-line: underline;
 }
 .checkbox{
-top: 0;
-bottom: 0;
+margin-top: 10px;
 }
 span{
    color: #0c0c0c;
-   font-size: 15px;  
+   font-size: 15px;
+   text-transform: capitalize;  
+   
 }
 input{
     color: black;
